@@ -19,7 +19,7 @@ reset = "\033[0m"
 blue = "\033[1;34m"
 
 os.system('clear')
-# os.system(f"cat core/main.logo")    # ⬅ این خط حذف یا کامنت شد طبق خواست شما
+# os.system(f"cat core/main.logo")  
 sleep(1)
 
 print(f"{gren}")
