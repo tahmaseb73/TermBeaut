@@ -189,7 +189,7 @@ def bnr_m():
     os.system(f"cat core/bnr/single_eye.bnr")
     print(f"{reed}-"*40)
     print(f"{reset}{gren}[{white}43{gren}] Skull Banner")
-    os.system(f"cat core/bnr/skull.bnr")   # ⬅ نام سازنده را در core/bnr/skull.bnr به "By Argh94" تغییر بدهید
+    os.system(f"cat core/bnr/skull.bnr")   
     print(f"{reed}-"*40)
     print(f"{reset}{gren}[{white}44{gren}] Stop Banner")
     os.system(f"cat core/bnr/stop.bnr")
@@ -2898,7 +2898,7 @@ while True:
     elif maix == "05" or maix == "5":
         print(f"\n{gren}[{white}+{gren}] Opening tool list..\n")
         sleep(1)
-        os.system("xdg-open https://github.com/VritraSecz?tab=repositories > /dev/null 2>&1 &")
+        os.system("xdg-open https://github.com/Argh94?tab=repositories > /dev/null 2>&1 &")
         input(f"{blue}Press ENTER To Back")
 
     elif maix == "06" or maix == "6":
